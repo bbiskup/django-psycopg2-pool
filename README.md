@@ -20,7 +20,7 @@ OR
 
 Assuming you have Django installed and this app installed,
 
-1. add 'django-psycopg2-pool.gevent' as your db backend
+1. add 'django_psycopg2_pool.gevent' as your db backend
 2. this may be required if you have south: in settings.py, have a line like:
 
     SOUTH_DATABASE_ADAPTERS = {
