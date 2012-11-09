@@ -189,6 +189,7 @@ class DatabaseWrapper(BaseDatabaseWrapper):
         return conn_params
 
     def _cursor(self):
+        settings_dict = self.settings_dict
 
         if self.connection is None:
             self.connection = self.pool.get()
